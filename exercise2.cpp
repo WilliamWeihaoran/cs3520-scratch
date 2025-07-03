@@ -14,7 +14,7 @@ int main() {
     cin >> number;
     
     if (cin.good()) {
-        cout << left
+        cout << right
              << setw(10)
              << fixed
              << setprecision(5)
@@ -23,10 +23,9 @@ int main() {
     }
 
     if (cin.fail()) {
-        stringstream ss;
-        ss << number;
-        string str = ss.str();
-        ofstream outFile("out.txt");
-        
+        string str;
+        cin.clear();
+        cin >> str;
+        ofstream ("out.txt") << str;
     }
 }

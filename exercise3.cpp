@@ -1,10 +1,3 @@
-/*
-Write a program that picks a random number from 0-50. 
-It then asks the user what they think the number is. 
-    - If the user is correct, the program prints "congratulations!" and exits. 
-    - If the user is incorrect, the program tells them whether their guess is too low, or too high. 
-The program repeats this until the user is correct.
-*/
 
 #include <iostream>
 #include <string>
